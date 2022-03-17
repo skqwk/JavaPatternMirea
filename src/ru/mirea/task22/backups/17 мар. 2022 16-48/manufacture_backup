@@ -1,0 +1,42 @@
+Manufacture{
+	id=1, 
+	name='MEZ', 
+	address='Moscow', 
+	phoneId=4
+}
+
+Manufacture{
+	id=2, 
+	name='MVZ', 
+	address='Moscow', 
+	phoneId=4
+}
+
+Manufacture{
+	id=3, 
+	name='UEZ', 
+	address='Perm', 
+	phoneId=5
+}
+
+Manufacture{
+	id=4, 
+	name='VMZ', 
+	address='Perm', 
+	phoneId=5
+}
+
+Manufacture{
+	id=9, 
+	name='TOU', 
+	address='Tokio', 
+	phoneId=4
+}
+
+Manufacture{
+	id=10, 
+	name='TOU', 
+	address='Tokio', 
+	phoneId=6
+}
+

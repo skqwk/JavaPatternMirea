@@ -1,0 +1,7 @@
+
+program:
+  - name: in
+  - student:
+    - name: Semyon
+    - lastname: Esaev
+    - group: IKBO-01-20

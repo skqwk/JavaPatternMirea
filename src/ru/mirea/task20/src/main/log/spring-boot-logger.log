@@ -1,0 +1,32 @@
+5100 [main] INFO  c.example.task20.Task20Application – Starting Task20Application using Java 11.0.14 on HP840 with PID 10416 (C:\Users\Maleshen\IdeaProjects\JavaPatternMirea\task20\target\classes started by Maleshen in C:\Users\Maleshen\IdeaProjects\JavaPatternMirea)
+5131 [main] INFO  c.example.task20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+6783 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+6939 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 126 ms. Found 2 JPA repository interfaces.
+8905 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8084 (http)
+8920 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8084"]
+8920 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+8920 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.58]
+9092 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+9092 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 3805 ms
+9436 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+9842 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+10014 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+10194 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.5.Final
+10647 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11053 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+12663 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12689 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13642 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14314 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8084"]
+14361 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8084 (http) with context path ''
+14376 [main] INFO  c.example.task20.Task20Application – Started Task20Application in 12.484 seconds (JVM running for 19.098)
+30810 [http-nio-8084-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+30818 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+30818 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 0 ms
+30900 [http-nio-8084-exec-2] INFO  c.e.task20.services.PhoneService – Find phones by name = Samsung
+31160 [http-nio-8084-exec-2] INFO  com.example.task20.AOPClass – PhoneService.findPhonesByName(..) completed in 268 ms
+43258 [http-nio-8084-exec-3] INFO  c.e.task20.services.PhoneService – Find phones by name = Samsung
+43266 [http-nio-8084-exec-3] INFO  com.example.task20.AOPClass – PhoneService.findPhonesByName(..) completed in 8 ms
+61224 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+61224 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+61256 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

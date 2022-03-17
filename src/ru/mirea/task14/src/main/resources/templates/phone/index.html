@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>All phones</title>
+</head>
+<body>
+
+<div th:each="phone : ${phones}">
+   <b
+       th:text="${phone.getName() + ', ' + phone.getCreationYear()}">phone</b>
+    <a th:href="@{/phone/delete?id={id}(id=${phone.getId()})}">Delete</a>
+</div>
+
+</br>
+</hr>
+
+<a href="phone/new">Create new phone</a>
+
+</body>
+</html>

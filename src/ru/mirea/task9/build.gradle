@@ -1,0 +1,31 @@
+plugins {
+    id "application"
+}
+
+version "1.0"
+
+application {
+    mainClass = "Main"
+}
+
+jar {
+    manifest{
+        attributes 'Main-Class': 'Main'
+    }
+}
+task copyJar(type: Copy) {
+    from jar
+    into projectDir
+}
+
+task task1 {
+    task1.dependsOn copyJar
+    finalizedBy {
+        Docker
+    }
+}
+
+task Docker(type: Exec) {
+    commandLine "docker", "build", "-t", "${project.name}:${project.version}", "."
+    commandLine "docker", "run", "-t", "docker.io/library/${project.name}:${project.version}"
+}

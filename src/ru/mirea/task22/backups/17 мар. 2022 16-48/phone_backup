@@ -1,0 +1,54 @@
+Phone{
+	id=4, 
+	name='IPhone', 
+	creationYear='2007'
+}
+
+Phone{
+	id=5, 
+	name='Samsung', 
+	creationYear='2009'
+}
+
+Phone{
+	id=1, 
+	name='Nokia 2210', 
+	creationYear='2007'
+}
+
+Phone{
+	id=2, 
+	name='Iphone 6S', 
+	creationYear='2016'
+}
+
+Phone{
+	id=3, 
+	name='Iphone 15', 
+	creationYear='2022'
+}
+
+Phone{
+	id=6, 
+	name='Iphone 18', 
+	creationYear='2025'
+}
+
+Phone{
+	id=7, 
+	name='Iphone 18', 
+	creationYear='2025'
+}
+
+Phone{
+	id=8, 
+	name='GoldenMr', 
+	creationYear='2005'
+}
+
+Phone{
+	id=9, 
+	name='Samsung', 
+	creationYear='2012'
+}
+
